@@ -1,0 +1,12 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "My Discord Bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.4.8",
+    "canvas": "^2.8.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
