@@ -21,7 +21,7 @@ client.on('message', async message => {
         const text = args.join(' ');
       
         // 送信前に「生成中...」のメッセージを送信
-        const loadingMessage = await message.channel.send('<:hub:1090293123042770974><:load1:1090294046469136524><:load2:1090294043973517413><:load3:1090294041746358293><:hub:1090293123042770974>');
+        const loadingMessage = await message.channel.send('生成しています...。');
       
         // 画像の生成処理
         const image = await generateImage(text, fontPath);
@@ -78,4 +78,4 @@ async function generateImage(text, fontPath) {
   }
   
 
-client.login('MTA5MDI3NDM1MjAxODIzMTMwNg.GXN7XH.ZUqoptTrurRo0yLOnYF8oHAVTM3xx2_n1Bx09g');
+client.login('YOUR_TOKEN_HERE');
